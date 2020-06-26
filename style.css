@@ -1,0 +1,248 @@
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  font-family: 'Pangolin',cursive;
+    background-color:white;
+    }
+     .animation_area {
+        font-family: "Pangolin",cursive;
+    position:relative;
+    background-image: -webkit-gradient(linear, left top, right top, from(#E91E63), color-stop(#673AB7), to(#24eb60));
+    background-image: linear-gradient(to right, #E91E63, #673AB7, #24eb60);
+    background-size: 500%;
+    -webkit-animation:moveBackground 5s ease-in-out infinite;
+    animation:moveBackground 5s ease-in-out infinite;
+}
+ 
+#heading {
+    font-family: roboto;
+    font-size: 70px;
+    font-weight:800;
+    height:100vh;
+    letter-spacing: 5px;
+    color: #181873;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+     
+    background: linear-gradient(-45deg, #ffffff, rgb(234, 255, 139), rgb(87, 255, 109), rgb(98, 224, 255));
+    color: transparent;
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-animation: moveBackground 5s ease infinite;
+    animation: moveBackground 5s ease infinite;
+}
+ 
+@-webkit-keyframes moveBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+ 
+@keyframes moveBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.entry_div{
+    background-color: #9be3de;
+    font-size:90px;
+    font-family: "Pangolin",cursive;
+  }
+  .x{
+      background-color:#03ab97;
+      
+  }
+  .title{
+    font-size: 60px;
+    padding: 40px;                        
+    font-family: "Great vibes";
+    color: #3ca59d;                                           
+  } 
+  .ul{
+      text-align:center;
+      width: 150px;
+      padding: 0 20px 0;
+  }                 
+  #footer{
+    background:#3ca59d;
+    }
+    #footer img{
+      width: 150px;
+    }
+    #footer a{
+      padding: 0 20px 0;}                              
+  .entry_div{
+    font-size: 50px;
+    font-family:"Great vibes";
+    padding: 0 0 50px 0;
+  }
+  .h{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .entry_img{
+    height: 60%;
+    width: 70%;
+  }
+  .intro{
+    text-align: center;
+    font-size: 200%;
+  }
+  .intro img{
+      width: 200px;
+      height: 200px;
+      border-radius: 100% ;
+  }
+  hr{
+  
+  }
+  .skills h1{
+    font-size: 200%;
+    
+  }
+  .jp{
+      font-size:40px;
+      text-align:center;
+  }
+  .skills h3{
+    font-size: 150%;
+    
+  }
+  .skills img{
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    padding: 0 20 0;
+  }
+  .l{
+      
+      text-align:center;
+      font-size:40px;
+  }
+  .skills p {
+    font-family: "Pangolin",cursive;
+    font-size: 150%;
+  }
+  .skills-2{
+    font-family: "Pangolin",cursive;
+    padding: 30px  100px;
+    font-family:"Pangolin";
+    font-size:30px;
+  }
+  .skill-2 h1{
+    font-size:150% ;
+    font-family: "Pangolin",cursive;
+    align: center;
+  }
+  .gy{
+    text-align:center;
+
+  }
+  .t{
+      font-size:20px;
+  }
+  .skills-2 img{
+    font-family: "Pangolin",cursive;
+    width: 300px;
+    border-radius: 50%;
+    float: right;
+    padding: 0 20 0;
+  }
+  .skills-2 p{
+    font-family: "Pangolin",cursive;
+    font-size: 150%;
+  }
+  .q{
+    background-color:#7196d1;
+  }
+ .o {
+      font-family:"Great vibes";
+  margin: 50px 0 0;
+  }
+  #get-in-touch h3{
+    font-family: "Pangolin",cursive;
+    font-size: 150%;
+    padding: 40px 0 0;
+  }
+  #footer{
+    font-family: "Pangolin",cursive;
+    background:#3ca59d;
+     text-align:center;
+    }
+    #footer img{
+      width: 150px;
+      text-align:center;
+    }
+    #footer a{
+      padding: 0 20px 0;
+    }
+    .footer {
+text-align: center;
+background-image:url("https://www.axisbank.com/images/default-source/revamp_new/contact-us/contactus.jpg");
+color:#3ca59d;
+    }
+    entry_p
+    {
+        font-size: 200%;
+    padding: 40px;                        
+    font-family: "Great vibes";
+    color: #3ca59d;  
+    }
+    .skills{
+        font-family:"Pangolin";
+        font-size:30px;
+    }
+    .animation_area{
+        font-family: "Pangolin",cursive;
+background:linear-gradient(to left,8942a8,#ba382f)
+width:100%;
+height:100vh;
+    }
+    .lk {
+        background-color:blue;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;}
+    .ju{
+        text-align:center;
+        font-family:'Great vibes';
+        font-size:80px;
+    }
+    .v{
+        text-align:center;
+        padding:10px,5px,0px,10px;
+    }
+    .foo{
+        text-align:center;
+    }
+      a:hover{
+          background-color:pink;
+      }
+      
+     
